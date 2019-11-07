@@ -1,0 +1,94 @@
+<templateSet group="PHP">
+  <template name="eco1" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="fore1" value="foreach ($ITERABLE$ as $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="forek1" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="phpSuggestVariableName()" defaultValue="&quot;$index&quot;" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="ifdbg" value="if(defined('APP_DEBUG') &amp;&amp; APP_DEBUG)&#10;{&#10;   $END$&#10;}" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="ifdbg1" value="if(defined('APP_DEBUG') &amp;&amp; APP_DEBUG)&#10;{&#10;    $END$&#10;}" description="If in debug mode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifdbgz" value="if(Adora_Aplicacion::esDepuracion())&#10;{&#10;    $END$&#10;}" description="If in debug mode ZendFramework" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inc1" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="inco1" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="phe" value="&lt;?php echo $END$ ?&gt;" description="Abrir tag php echo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prif1" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="prisf1" value="private static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="prof1" value="protected function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="prosf1" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="pubf1" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="pubsf1" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="rqr1" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="rqro1" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="thr1" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true" />
+  <template name="vdf" value="\Adora\Debug\Debug::dump(__LINE__.'::'.__FUNCTION__ . ' '$VARIABLE$);$END$" description="Dump Function" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdm" value="\Adora\Debug\Debug::dump(__LINE__.'::'.__METHOD__ . ' '$VARIABLE$);$END$" description="Dump Method" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdv" value="\Adora\Debug\Debug::dump($VARIABLE$);$END$" description="Dump Variable" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdvf" value="\Adora\Debug\Debug::dump(new \Adora\Debug\Filter\ToArrayFilter($VARIABLE$));$END$" description="Dump Variable Filtered" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdz" value="Adora_Depurar::dump($VARIABLE$);$END$" description="Dump Variable Zend" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wpt" value="&lt;?php echo __('$TEXT$', 'wpbootstrap') ?&gt;" description="Wordpress Traducción" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

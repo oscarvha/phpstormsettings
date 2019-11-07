@@ -1,0 +1,61 @@
+<templateSet group="css-adoriano">
+  <template name="com-section" value="/* ==========================================================================&#10;   ##$VAR0$&#10;========================================================================== */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-basic" value="/* $VAR0$ */" description="comentario básico" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-cms-pos" value="/* ----- Positioning ----- */" description="posicionamiento titulo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-css-model" value="/* ----- Display &amp; Box Model ----- */" description="model coment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-css-type" value="/* ----- Typography ----- */" description="typografia comentario" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-css-visual" value="/* ----- Appearence ----- */" description="apariencia comentario" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-css-misc" value="/* ----- Misc ----- */" description="comenentario miscelanea" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-css-all" value="/* ----- Positioning ----- */&#10;&#10;/* ----- Display &amp; Box Model ----- */&#10;&#10;/* ----- Typography ----- */&#10;&#10;/* ----- Appearence ----- */&#10;&#10;/* ----- Misc ----- */&#10;&#10;/* ----- Animations ----- */&#10;" description="estructura total" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-sub" value="/*&#10;     ###$VAR0$&#10;============================================================================== */" description="subseccion" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com-todo" value="/**&#10; * TODO:&#10; *&#10; * =&gt; Write some code&#10; * =&gt; Make some lists&#10; *&#10; */" description="todo list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="Long Comment" value="/**&#10;  $VAR0$&#10;*/" description="comentario largo" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
