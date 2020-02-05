@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".htaccess.local" type="PLAIN_TEXT" />
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern=".htaccess.local" type="PLAIN_TEXT" />
+      <mapping ext="sxs" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
