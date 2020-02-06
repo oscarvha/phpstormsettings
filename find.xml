@@ -21,5 +21,6 @@
     <mask>*css</mask>
     <mask>*</mask>
     <mask>*.php</mask>
+    <mask>*.tpl</mask>
   </component>
 </application>
