@@ -21,8 +21,8 @@
     <mask>*.tpl</mask>
     <mask>*.php</mask>
     <mask>*.TPL</mask>
+    <mask>*php</mask>
     <mask>*scss</mask>
     <mask>*tpl</mask>
-    <mask>*php</mask>
   </component>
 </application>
