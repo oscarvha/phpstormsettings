@@ -28,5 +28,6 @@
     <mask>*tpl</mask>
     <mask>*php</mask>
     <mask>*LOG</mask>
+    <mask>*twig</mask>
   </component>
 </application>
