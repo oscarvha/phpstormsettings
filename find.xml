@@ -25,10 +25,10 @@
     <mask>*scss</mask>
     <mask>*TPL</mask>
     <mask>*PHP</mask>
-    <mask>*php</mask>
     <mask>*LOG</mask>
     <mask>*twig</mask>
     <mask>*JS</mask>
     <mask>*tpl</mask>
+    <mask>*php</mask>
   </component>
 </application>
