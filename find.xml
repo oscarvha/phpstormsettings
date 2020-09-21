@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*TPL" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -23,12 +24,12 @@
     <mask>*js</mask>
     <mask>*SCSS</mask>
     <mask>*scss</mask>
-    <mask>*TPL</mask>
     <mask>*PHP</mask>
     <mask>*LOG</mask>
     <mask>*twig</mask>
     <mask>*JS</mask>
     <mask>*tpl</mask>
     <mask>*php</mask>
+    <mask>*TPL</mask>
   </component>
 </application>
