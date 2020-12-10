@@ -28,9 +28,9 @@
     <mask>*TPL</mask>
     <mask>*JS</mask>
     <mask>*less</mask>
-    <mask>*js</mask>
     <mask>*tpl</mask>
     <mask>*php</mask>
+    <mask>*js</mask>
     <mask>*scss</mask>
   </component>
 </application>
