@@ -29,7 +29,7 @@
     <mask>*less</mask>
     <mask>*php</mask>
     <mask>*scss</mask>
-    <mask>*tpl</mask>
     <mask>*js</mask>
+    <mask>*tpl</mask>
   </component>
 </application>
