@@ -28,8 +28,8 @@
     <mask>*JS</mask>
     <mask>*less</mask>
     <mask>*js</mask>
-    <mask>*scss</mask>
     <mask>*php</mask>
     <mask>*tpl</mask>
+    <mask>*scss</mask>
   </component>
 </application>
