@@ -1,12 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="187b8323-86b9-4538-a63f-f7ab4fb49db4" name="Balaguer Demo">
-        <fileTransfer rootFolder="/var/www/balaguer-rolls.adorapruebas.com/web" accessType="SFTP" host="185.103.36.111" port="2002" sshConfigId="66ed0d33-0db7-483c-a422-6f966487e276" sshConfig="benditaeva_key_ssh@185.103.36.111:2002 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
+      <webServer id="187b8323-86b9-4538-a63f-f7ab4fb49db4" name="Balaguer Demo" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Docker/arbitraje/www" accessType="MOUNT" port="0" />
       </webServer>
     </option>
   </component>
