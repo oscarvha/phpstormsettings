@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="187b8323-86b9-4538-a63f-f7ab4fb49db4" name="Balaguer Demo" url="http://localhost">
-        <fileTransfer mountedRoot="$USER_HOME$/Docker/arbitraje/www" accessType="MOUNT" port="0" />
-      </webServer>
-    </option>
-  </component>
-</application>
