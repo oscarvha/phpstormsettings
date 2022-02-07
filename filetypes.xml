@@ -10,6 +10,7 @@
       <mapping pattern="form,tpl" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="cfg---Aplicacion" type="PLAIN_TEXT" />
+      <mapping pattern=".htaacess" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="sxs" type="PLAIN_TEXT" />
