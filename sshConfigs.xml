@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="185.103.36.111" id="66ed0d33-0db7-483c-a422-6f966487e276" keyPath="$USER_HOME$/.ssh/id_rsa" port="2002" nameFormat="DESCRIPTIVE" username="benditaeva_key_ssh" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="54.220.223.72" id="66ed0d33-0db7-483c-a422-6f966487e276" keyPath="$USER_HOME$/Documentos/certificados/wordpress.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
