@@ -8,6 +8,9 @@
       <interpreter id="02179803-52f2-4944-88d3-4d00b7a4d8a1" name="mediabuying_server:latest" home="docker://DATA" debugger_id="php.debugger.XDebug">
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="mediabuying_server:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
+      <interpreter id="ec447229-d338-4e14-b277-e194ec91d8bd" name="traiding_server:latest" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="traiding_server:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
