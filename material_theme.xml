@@ -1,8 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="pristineConfig" value="false" />
-    <option name="accentColor" value="f9826c" />
-    <option name="selectedTheme" value="GITHUB_DARK" />
+    <option name="accentColor" value="ff9800" />
+    <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="34f35098:17882031285:-8000" />
     <option name="version" value="7.4.1" />
   </component>
