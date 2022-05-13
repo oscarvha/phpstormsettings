@@ -1,10 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="contrastMode" value="true" />
-    <option name="isContrastMode" value="true" />
     <option name="pristineConfig" value="false" />
-    <option name="accentColor" value="416a9b" />
-    <option name="selectedTheme" value="NATIVE" />
+    <option name="accentColor" value="f9826c" />
+    <option name="selectedTheme" value="GITHUB_DARK" />
     <option name="userId" value="34f35098:17882031285:-8000" />
     <option name="version" value="7.4.1" />
   </component>
