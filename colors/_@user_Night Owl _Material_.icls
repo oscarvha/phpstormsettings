@@ -4,7 +4,7 @@
     <property name="created">2022-05-13T22:17:38</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2022.1.1.0.0</property>
-    <property name="modified">2022-05-13T22:35:40</property>
+    <property name="modified">2022-09-15T09:41:37</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -29,7 +29,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="9ccc65" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
-    <option name="ActionButton.hoverBackground" value="84d8150" />
+    <option name="ActionButton.hoverBackground" value="4d8150" />
     <option name="ActionButton.iconTextForeground" value="5f7e97" />
     <option name="ActionButton.pressedBackground" value="84d81" />
     <option name="Bookmark.Mnemonic.iconBackground" value="4373c2" />
@@ -76,7 +76,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="8f9d6a" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
     <option name="FILESTATUS_MERGED" value="82aaff" />
