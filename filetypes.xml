@@ -5,6 +5,7 @@
       <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping pattern="wdgijo" type="AUTO_DETECTED" />
       <mapping pattern=".htaccess.local " type="PLAIN_TEXT" />
+      <mapping pattern=".bash_history" type="PLAIN_TEXT" />
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess.local" type="PLAIN_TEXT" />
       <mapping pattern="form,tpl" type="PLAIN_TEXT" />
